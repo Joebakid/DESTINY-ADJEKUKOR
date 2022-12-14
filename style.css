@@ -101,9 +101,10 @@ main {
 .hero h1 {
   text-transform: uppercase;
   padding-top: 2rem;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   /* line-height: 0.9; */
   color: white;
+  letter-spacing: 2px;
 }
 
 h4 {
