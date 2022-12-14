@@ -123,14 +123,14 @@ h1 {
 
 .about {
   /* padding: 0px 0 20px 0; */
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .exp {
   padding: 50px 0 5px 0;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   font-size: 2rem;
 }
 
@@ -150,9 +150,9 @@ h1 {
 
 .services {
   padding: 30px 0;
-  display: flex;
+  /* display: flex; */
   font-size: 2rem;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 hr {
@@ -201,6 +201,7 @@ footer {
 
 .flex-h2 {
   font-size: 1rem;
+  /* color: rgb(49, 95, 113); */
 }
 
 .icon-flex {
