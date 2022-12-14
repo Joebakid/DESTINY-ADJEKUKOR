@@ -140,7 +140,7 @@ h1 {
 
 .service-container {
   color: white;
-  /* padding: 20px 0; */
+  padding: 1.5rem 0;
   /* display: flex;
   justify-content: center;
   flex-direction: column; */
@@ -186,7 +186,11 @@ footer {
 }
 
 .flex-section {
-  padding: 50px 0;
+  padding: 2.5rem 0;
+}
+
+.flex-section-2 {
+  padding: 2.5rem 0;
 }
 
 .flex {
