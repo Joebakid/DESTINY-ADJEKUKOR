@@ -200,7 +200,7 @@ footer {
   width: 50px;
 }
 
-@keyframes transitionIn {
+/* @keyframes transitionIn {
   from {
     opacity: 0;
     transform: rotateX("-10deg");
@@ -210,7 +210,7 @@ footer {
     opacity: 1;
     transform: rotateX("0");
   }
-}
+} */
 
 @media screen and (min-width: 800px) {
   .flex-section-2 {
