@@ -32,6 +32,11 @@ ul {
 
 li a {
   font-size: 0.8rem;
+  transition: all 1s;
+}
+
+li a:hover {
+  text-decoration: line-through;
 }
 
 .container {
