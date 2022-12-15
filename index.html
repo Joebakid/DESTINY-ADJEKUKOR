@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>DESTINY ADJEKUKOR</title>
   </head>
   <body>
@@ -51,7 +52,7 @@
 
     <section>
       <div class="container" id="about">
-        <div class="flex-section">
+        <div class="flex-section" data-aos="fade-up-right">
           <h1 class="white-font about">About</h1>
 
           <p>
@@ -62,7 +63,7 @@
           </p>
         </div>
 
-        <div class="flex-section-2">
+        <div class="flex-section-2" data-aos="fade-left">
           <div>
             <h3 class="white-font exp">Experience</h3>
             <br />
@@ -89,7 +90,7 @@
 
     <section>
       <div class="container" id="contact">
-        <div class="service-container">
+        <div class="service-container" data-aos="fade-right">
           <span>
             <h2 class="services">Services</h2>
           </span>
@@ -165,12 +166,20 @@
             target="_blank"
             >linkedin</a
           >
-          <a href="" target="_blank">twitter</a>
+          <a href="https://twitter.com/okedest" target="_blank">twitter</a>
         </span>
         <br />
         © DESTINY ADJEKUKOR 2022
         <br />
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
