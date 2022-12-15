@@ -366,6 +366,57 @@ footer {
     width: 70%;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .faq-flex h1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 265px) {
+  .hero h1 {
+    font-size: 20px;
+  }
+  .hero p {
+    font-size: 10px;
+  }
+
+  .exp {
+    font-size: 15px;
+  }
+
+  .flex-section-2 p {
+    font-size: 10px;
+  }
+
+  .about {
+    font-size: 20px;
+  }
+
+  .flex-section p {
+    font-size: 10px;
+  }
+
+  li a {
+    font-size: 10px;
+  }
+
+  .icon-flex {
+    width: 20px;
+  }
+  .flex-h2 {
+    font-size: 13px;
+  }
+
+  .faq-flex p {
+    font-size: 10px;
+  }
+
+  .faq-flex h3 {
+    font-size: 15px;
+  }
+}
+
 /* .flex-section p {
   color: red;
   width: 60%;
