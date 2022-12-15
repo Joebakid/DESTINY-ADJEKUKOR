@@ -316,7 +316,7 @@ footer {
 .container .tab .content p {
   position: relative;
   padding: 10px 0;
-  color: #333;
+  color: #fff;
   z-index: 10;
 }
 
