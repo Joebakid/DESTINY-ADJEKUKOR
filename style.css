@@ -217,6 +217,109 @@ footer {
   width: 50px;
 }
 
+/* ******************** */
+/* FAQs */
+/* ********************* */
+
+.faq-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-flex h2 {
+  color: #333;
+}
+
+.container .tab {
+  position: relative;
+  /* width: 80%; */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgb(138, 132, 132);
+}
+
+.container .tab input {
+  appearance: none;
+}
+
+.container .tab label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container .tab label::after {
+  content: "+";
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+}
+
+.container .tab:hover label::after {
+  color: #333;
+}
+
+.container .tab input:checked ~ label::after {
+  transform: rotate(135deg);
+  color: white;
+}
+
+.container .tab label h2 {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.25em;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.container .tab:nth-child(1) label h2 {
+  /* background-color: rgba(31, 175, 232, 0.193); */
+}
+
+/* .container .tab input:checked ~ label h2 {
+  position: absolute;
+  top: o;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.container .tab label h3 {
+  position: relative;
+  font-weight: 500;
+  color: #333;
+  z-index: 10;
+}
+
+.container .tab .content {
+  max-height: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.container .tab input:checked ~ .content {
+  max-height: 100vh;
+}
+
+.container .tab .content p {
+  position: relative;
+  padding: 10px 0;
+  color: #333;
+  z-index: 10;
+}
+
 /* @keyframes transitionIn {
   from {
     opacity: 0;
@@ -255,6 +358,10 @@ footer {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+  }
+
+  .container .tab {
+    width: 70%;
   }
 }
 /* .flex-section p {
