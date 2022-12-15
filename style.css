@@ -22,13 +22,14 @@ a {
 
 nav {
   padding: 10px 0;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 ul {
   justify-content: space-between;
   list-style: none;
   display: flex;
+  /* z-index: 2; */
 }
 
 li a {
@@ -46,10 +47,11 @@ li a:hover {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.307);
+  background-color: rgba(125, 120, 120, 0.449);
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
   right: 0;
 }
 
